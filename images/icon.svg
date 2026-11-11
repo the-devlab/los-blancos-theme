@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <!-- Tile -->
+  <rect x="8" y="8" width="240" height="240" rx="52" fill="#0B1B33" stroke="#FCBF00" stroke-width="6"/>
+
+  <!-- Five-point star -->
+  <polygon fill="#FFFFFF"
+    points="128,52 146.8,110.1 206,110.7 158.4,145.9 176.2,202.3 128,168 79.8,202.3 97.6,145.9 50,110.7 109.2,110.1"/></svg>
