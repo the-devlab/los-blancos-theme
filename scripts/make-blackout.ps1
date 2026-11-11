@@ -1,9 +1,9 @@
-# Regenerates themes/los-blancos-third-color-theme.json from the base theme.
-# Run from anywhere:  powershell -File scripts/make-third.ps1
-# Third = same code colours as the base theme, with a near-black interface.
+# Regenerates themes/los-blancos-blackout-color-theme.json from the Navy theme.
+# Run from anywhere:  powershell -File scripts/make-blackout.ps1
+# Blackout = same code colours as Navy, with a near-black interface.
 
 $dir  = Join-Path $PSScriptRoot '..\themes'
-$text = [IO.File]::ReadAllText((Join-Path $dir 'los-blancos-color-theme.json'))
+$text = [IO.File]::ReadAllText((Join-Path $dir 'los-blancos-navy-color-theme.json'))
 
 # Navy surfaces -> near-black, bluish greys -> neutral greys (exact 6-digit values)
 $swap = [ordered]@{
@@ -32,7 +32,7 @@ foreach ($k in $swap.Keys) { $text = $text.Replace($k, $swap[$k]) }
 
 # Blue used sparingly: dark club-blue status bar and tints, neutral selections
 $set = [ordered]@{
-  'name'                                   = 'Los Blancos Third'
+  'name'                                   = 'Los Blancos Blackout'
   'statusBar.background'                   = '#002A57'
   'statusBar.foreground'                   = '#E8E8E8'
   'statusBar.border'                       = '#002A57'
@@ -58,7 +58,7 @@ foreach ($k in $set.Keys) {
   $text = ([regex]$pattern).Replace($text, ('$1"' + $set[$k] + '"'), 1)
 }
 
-$out = Join-Path $dir 'los-blancos-third-color-theme.json'
+$out = Join-Path $dir 'los-blancos-blackout-color-theme.json'
 [IO.File]::WriteAllText($out, $text, (New-Object Text.UTF8Encoding $false))
 $null = $text | ConvertFrom-Json
 "Wrote $out"

@@ -1,7 +1,7 @@
 {
   "name": "los-blancos-theme",
   "displayName": "Los Blancos",
-  "description": "A crisp VS Code theme in white, gold, blue and red, with dark navy, light and blackout variants.",
+  "description": "A crisp white VS Code theme in blue, gold and red, with Navy and Blackout dark variants.",
   "version": "0.1.0",
   "publisher": "thedevlab",
   "license": "MIT",
@@ -39,18 +39,18 @@
     "themes": [
       {
         "label": "Los Blancos",
-        "uiTheme": "vs-dark",
+        "uiTheme": "vs",
         "path": "./themes/los-blancos-color-theme.json"
       },
       {
-        "label": "Los Blancos Away",
-        "uiTheme": "vs",
-        "path": "./themes/los-blancos-away-color-theme.json"
+        "label": "Los Blancos Navy",
+        "uiTheme": "vs-dark",
+        "path": "./themes/los-blancos-navy-color-theme.json"
       },
       {
-        "label": "Los Blancos Third",
+        "label": "Los Blancos Blackout",
         "uiTheme": "vs-dark",
-        "path": "./themes/los-blancos-third-color-theme.json"
+        "path": "./themes/los-blancos-blackout-color-theme.json"
       }
     ]
   }

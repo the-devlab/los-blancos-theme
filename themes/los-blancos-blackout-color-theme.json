@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Los Blancos Third",
+  "name": "Los Blancos Blackout",
   "type": "dark",
   "semanticHighlighting": true,
   "colors": {

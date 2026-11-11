@@ -1,6 +1,6 @@
 # Los Blancos
 
-A crisp dark navy theme for VS Code in white, gold, blue and red. Made by The DevLab.
+A crisp white theme for VS Code in blue, gold and red, with Navy and Blackout dark variants. Made by The DevLab.
 
 <!-- TODO: add a screenshot: ![Los Blancos screenshot](images/screenshot.png) -->
 
@@ -14,32 +14,46 @@ A crisp dark navy theme for VS Code in white, gold, blue and red. Made by The De
 
 | Theme | Style |
 |---|---|
-| **Los Blancos** | Dark navy, with a blue status bar and gold highlights. |
-| **Los Blancos Away** | Light: white background, blue accents and a blue status bar. |
-| **Los Blancos Third** | Blackout: near-black throughout, with a dark blue status bar. |
+| **Los Blancos** | Light: white background, blue accents and a blue status bar. |
+| **Los Blancos Navy** | Dark navy, with a blue status bar and gold highlights. |
+| **Los Blancos Blackout** | Near-black throughout, with a dark blue status bar. |
 
 ## Palette (Los Blancos)
 
 | Role | Colour |
 |---|---|
-| Background (navy) | `#0B1B33` |
+| Background | `#FFFFFF` |
+| Sidebar & panels | `#F7F8FA` |
+| Text | `#1A1F2B` |
+| Blue (keywords, tags, status bar) | `#004996` |
+| Dark gold (functions, attributes) | `#8A6D00` |
+| Gold (search highlights, badges) | `#FCBF00` |
+| Khaki (strings) | `#6B5B3A` |
+| Red (numbers, constants) | `#C8102E` |
+| Black (types, classes) | `#000000` |
+| Comments | `#6E7787` |
+
+## Palette (Navy)
+
+| Role | Colour |
+|---|---|
+| Background | `#0B1B33` |
 | Sidebar & panels | `#081428` |
 | Text | `#E8EDF5` |
 | White (types, classes) | `#FFFFFF` |
 | Blue (status bar, buttons) | `#004996` |
 | Light blue (keywords, tags) | `#6FA8F0` |
-| Gold (functions, cursor, accents) | `#FCBF00` |
+| Gold (functions, cursor, badges) | `#FCBF00` |
 | Soft gold (strings) | `#F5DC9A` |
-| Red (badges, deletions) | `#E62644` |
 | Light red (numbers, constants) | `#FF6B7F` |
 | Comments | `#7388A6` |
 
 ## Development
 
-Press F5 in VS Code to open a test window with sample files. The Third variant is generated from the base theme; after changing `themes/los-blancos-color-theme.json`, run:
+Press F5 in VS Code to open a test window with sample files. The Blackout variant is generated from the Navy theme; after changing `themes/los-blancos-navy-color-theme.json`, run:
 
 ```powershell
-powershell -File scripts/make-third.ps1
+powershell -File scripts/make-blackout.ps1
 ```
 
 ## Feedback
