@@ -1,0 +1,37 @@
+{
+  "name": "los-blancos-theme",
+  "displayName": "Los Blancos",
+  "description": "A crisp dark navy theme in white, gold, blue and red.",
+  "version": "0.1.0",
+  "publisher": "thedevlab",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "navy",
+    "blue",
+    "gold",
+    "white",
+    "dark theme",
+    "color theme"
+  ],
+  "galleryBanner": {
+    "color": "#0B1B33",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Los Blancos",
+        "uiTheme": "vs-dark",
+        "path": "./themes/los-blancos-color-theme.json"
+      }
+    ]
+  }
+}
