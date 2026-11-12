@@ -2,7 +2,7 @@
   "name": "los-blancos-theme",
   "displayName": "Los Blancos",
   "description": "A crisp white VS Code theme in blue, gold and red, with Navy and Blackout dark variants.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "thedevlab",
   "license": "MIT",
   "icon": "images/icon.png",

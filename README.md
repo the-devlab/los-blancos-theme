@@ -26,35 +26,22 @@ A crisp white theme for VS Code in blue, gold and red, with Navy and Blackout da
 
 ![Los Blancos Blackout theme in VS Code](images/los-blancos-blackout.png)
 
-## Palette (Los Blancos)
+## Palette
 
-| Role | Colour |
-|---|---|
-| Background | `#FFFFFF` |
-| Sidebar & panels | `#F7F8FA` |
-| Text | `#1A1F2B` |
-| Blue (keywords, tags, status bar) | `#004996` |
-| Dark gold (functions, attributes) | `#8A6D00` |
-| Gold (search highlights, badges) | `#FCBF00` |
-| Khaki (strings) | `#6B5B3A` |
-| Red (numbers, constants) | `#C8102E` |
-| Black (types, classes) | `#000000` |
-| Comments | `#6E7787` |
-
-## Palette (Navy)
-
-| Role | Colour |
-|---|---|
-| Background | `#0B1B33` |
-| Sidebar & panels | `#081428` |
-| Text | `#E8EDF5` |
-| White (types, classes) | `#FFFFFF` |
-| Blue (status bar, buttons) | `#004996` |
-| Light blue (keywords, tags) | `#6FA8F0` |
-| Gold (functions, cursor, badges) | `#FCBF00` |
-| Soft gold (strings) | `#F5DC9A` |
-| Light red (numbers, constants) | `#FF6B7F` |
-| Comments | `#7388A6` |
+| Role | Los Blancos | Navy | Blackout |
+|---|---|---|---|
+| Background | `#FFFFFF` | `#0B1B33` | `#0A0A0A` |
+| Sidebar & panels | `#F7F8FA` | `#081428` | `#000000` |
+| Text | `#1A1F2B` | `#E8EDF5` | `#E8E8E8` |
+| Status bar | `#004996` | `#004996` | `#002A57` |
+| Cursor | `#004996` | `#FCBF00` | `#FCBF00` |
+| Badges | `#FCBF00` | `#FCBF00` | `#FCBF00` |
+| Keywords, tags | `#004996` | `#6FA8F0` | `#6FA8F0` |
+| Functions, attributes | `#8A6D00` | `#FCBF00` | `#FCBF00` |
+| Strings | `#6B5B3A` | `#F5DC9A` | `#F5DC9A` |
+| Numbers, constants | `#C8102E` | `#FF6B7F` | `#FF6B7F` |
+| Types, classes (bold) | `#000000` | `#FFFFFF` | `#FFFFFF` |
+| Comments (italic) | `#6E7787` | `#7388A6` | `#7A7A7A` |
 
 ## Development
 
