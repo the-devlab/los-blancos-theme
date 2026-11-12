@@ -2,7 +2,7 @@
 
 A crisp white theme for VS Code in blue, gold and red, with Navy and Blackout dark variants. Made by The DevLab.
 
-<!-- TODO: add a screenshot: ![Los Blancos screenshot](images/screenshot.png) -->
+![Los Blancos theme in VS Code](images/los-blancos.png)
 
 ## Install
 
@@ -17,6 +17,14 @@ A crisp white theme for VS Code in blue, gold and red, with Navy and Blackout da
 | **Los Blancos** | Light: white background, blue accents and a blue status bar. |
 | **Los Blancos Navy** | Dark navy, with a blue status bar and gold highlights. |
 | **Los Blancos Blackout** | Near-black throughout, with a dark blue status bar. |
+
+### Los Blancos Navy
+
+![Los Blancos Navy theme in VS Code](images/los-blancos-navy.png)
+
+### Los Blancos Blackout
+
+![Los Blancos Blackout theme in VS Code](images/los-blancos-blackout.png)
 
 ## Palette (Los Blancos)
 
